@@ -1,3 +1,6 @@
 friends_profile_homepage:
     path:     /hello/{name}
     defaults: { _controller: FriendsProfileBundle:Default:index }
+friends_profile_twitterfeed:
+      path:     /twitterfeed
+      defaults: { _controller: FriendsProfileBundle:TwitterFeed:index }
