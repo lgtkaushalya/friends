@@ -1,3 +1,7 @@
+friends_profile:
+    resource: "@FriendsProfileBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
