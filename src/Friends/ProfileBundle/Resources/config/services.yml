@@ -1,4 +1,6 @@
 services:
+     message_generator:
+         class: Friends\ProfileBundle\DependencyInjection\MessageGenerator
 #    friends_profile.example:
 #        class: Friends\ProfileBundle\Example
 #        arguments: [@service_id, "plain_value", %parameter%]
