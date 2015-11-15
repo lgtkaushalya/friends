@@ -1,6 +1,6 @@
 friends_profile_homepage:
     path:     /hello/{name}
-    defaults: { _controller: FriendsProfileBundle:Default:index }
+    defaults: { _controller: FriendsProfileBundle:Default:index, 'name' : "Thilanka" }
 friends_profile_twitterfeed:
     path:     /twitterfeed
     defaults: { _controller: FriendsProfileBundle:TwitterFeed:index }
@@ -10,3 +10,8 @@ friends_profile_messagegeneration:
 friends_profile_requestResponse:
     path:     /requestResponse
     defaults: { _controller: FriendsProfileBundle:RequestResponse:index }
+friends_profile_routingTest:
+    path:     /routingTest
+    defaults: { _controller: FriendsProfileBundle:RoutingTest:routingTest }
+    condition: "context.getMethod() in ['GET', 'POST']"
+    methods:  [GET]
