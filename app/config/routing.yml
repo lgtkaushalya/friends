@@ -2,6 +2,10 @@ friends_profile:
     resource: "@FriendsProfileBundle/Resources/config/routing.yml"
     prefix:   /
 
+typing_manual:
+    resource: "@TypingManualBundle/Controller/"
+    type: annotation
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
