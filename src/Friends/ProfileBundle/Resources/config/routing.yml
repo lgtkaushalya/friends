@@ -7,3 +7,6 @@ friends_profile_twitterfeed:
 friends_profile_messagegeneration:
     path:     /messagegeneration
     defaults: { _controller: FriendsProfileBundle:MessageGeneration:index }
+friends_profile_requestResponse:
+    path:     /requestResponse
+    defaults: { _controller: FriendsProfileBundle:RequestResponse:index }
