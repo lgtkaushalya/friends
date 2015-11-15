@@ -1,0 +1,6 @@
+<h1>High Rated Blogs</h1>
+<ul>
+{% for blog in blogList if blog.rating > 3 %}
+  <li>{{ blog.title  }} : {{ blog.rating }} </li>
+{% endfor %}
+</ul>

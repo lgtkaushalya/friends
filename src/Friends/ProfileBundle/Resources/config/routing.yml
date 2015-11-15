@@ -15,3 +15,6 @@ friends_profile_routingTest:
     defaults: { _controller: FriendsProfileBundle:RoutingTest:routingTest }
     condition: "context.getMethod() in ['GET', 'POST']"
     methods:  [GET]
+friends_profile_templateSample:
+    path:     /templateSample
+    defaults: { _controller: FriendsProfileBundle:TemplateSample:printList }
